@@ -1,0 +1,53 @@
+.about-section {
+  margin-left: 50px;
+}
+
+.about-section > div {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  height: 150px;
+}
+
+h1 {
+  font-size: 80px;
+  margin-right: 50px;
+}
+
+.about-paragraph {
+  width: 1000px;
+
+  color: #9a4bff;
+}
+
+.skills-span {
+  display: flex;
+  align-items: center;
+
+  width: 400px;
+}
+
+.skills-span p,
+.experience-span p {
+  padding-left: 15px;
+}
+
+.experience-span {
+  display: flex;
+  align-items: center;
+
+  width: 800px;
+}
+
+.education-span {
+  margin-right: 2rem;
+}
+
+.education-span .about-paragraph {
+  display: flex;
+  align-items: center;
+
+  width: max-content;
+}
